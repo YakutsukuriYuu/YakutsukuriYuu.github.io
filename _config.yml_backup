@@ -8,7 +8,7 @@ subtitle: '役津慄優'
 description: '役津慄優后援团'
 keywords: 役津慄優,YakutsukuriYuu
 author: QianSU
-language: cn
+language: en
 timezone: ''
 
 # URL
@@ -97,8 +97,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: landscape
-
+theme: aurora
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
