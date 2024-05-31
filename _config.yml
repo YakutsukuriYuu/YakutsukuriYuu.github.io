@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: YakutsukuriYuu
+subtitle: '役津慄優'
+description: '役津慄優后援团'
+keywords: 役津慄優,YakutsukuriYuu
+author: QianSU
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://yakutsukuriyuu.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,8 +96,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-
+# theme: landscape
+theme: aurora
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
