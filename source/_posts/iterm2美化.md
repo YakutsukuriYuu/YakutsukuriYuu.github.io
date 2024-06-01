@@ -5,8 +5,8 @@ tags:
 categories:
   - 教程
 
-date: 2024年 6月 2日 星期日 07时42分31秒 CST
-updated: 2024年 6月 2日 星期日 07时42分31秒 CST
+date: 2024-06-02
+updated: 2024-06-02
 published: true
 
 ---
