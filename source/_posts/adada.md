@@ -1,0 +1,14 @@
+---
+title: adada
+categories:
+  - ada
+tags:
+  - 算法模版
+date: 2024-06-05
+updated: 2024-06-05
+published: true
+---
+L如果你害怕失敗，那你很有可能會失敗。
+If you're afraid to fail, then you're probably going to fail.
+<!-- more -->
+# adada
