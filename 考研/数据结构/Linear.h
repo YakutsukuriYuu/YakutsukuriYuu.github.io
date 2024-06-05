@@ -11,4 +11,3 @@ typedef struct {
 	ElemType data[maxn]; //数组基地址类型
 	int length;			//线性表长度 1,2,3...
 }List;
-
