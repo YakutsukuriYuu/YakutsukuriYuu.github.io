@@ -15,6 +15,34 @@ theme = "DoIt"
   # DoIt 主题版本
   version = "0.2.X"
 
+
+
+[params.typeit]
+    # 每一步的打字速度 (单位是毫秒)
+    speed = 100
+    # 光标的闪烁速度 (单位是毫秒)
+    cursorSpeed = 1000
+    # 光标的字符 (支持 HTML 格式)
+    cursorChar = "|"
+    # 打字结束之后光标的持续时间 (单位是毫秒, "-1" 代表无限大)
+    duration = -1
+
+[params.app]
+    # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
+    title = ""
+    # 是否隐藏网站图标资源链接
+    noFavicon = false
+    # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
+    svgFavicon = ""
+    # Android 浏览器主题色
+    themeColor = "#ffffff"
+    # Safari 图标颜色
+    iconColor = "#5bbad5"
+    # Windows v8-10磁贴颜色
+    tileColor = "#da532c"
+
+
+    
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -149,7 +177,7 @@ theme = "DoIt"
   # 文章内容最长索引长度
   contentLength = 4000
   # 搜索框的占位提示语
-  placeholder = ""
+  placeholder = "search"
   #  最大结果数目
   maxResultLength = 10
   #  结果内容片段长度
@@ -177,3 +205,5 @@ theme = "DoIt"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+
