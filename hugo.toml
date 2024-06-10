@@ -1,5 +1,5 @@
 baseURL = 'https://jetsu.cn/'
 languageCode = 'en-us'
 title = 'YakutsukuriYuu'
-theme = 'ananke'
+theme = 'DoIt'
 publishDir = "public"
