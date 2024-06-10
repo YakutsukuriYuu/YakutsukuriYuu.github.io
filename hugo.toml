@@ -2,4 +2,4 @@ baseURL = 'https://jetsu.cn/'
 languageCode = 'en-us'
 title = 'YakutsukuriYuu'
 theme = 'DoIt'
-publishDir = "public"
+publishDir = "./public"
