@@ -375,17 +375,17 @@ theme = "DoIt"
       # Disqus 评论系统设置
       [params.page.comment.disqus]
         # DoIt 新增 | 0.1.1
-        enable = true
+        enable = false
         # Disqus 的 shortname, 用来在文章中启用 Disqus 评论系统
         shortname = ""
       # Gitalk 评论系统设置
       [params.page.comment.gitalk]
         # DoIt 新增 | 0.1.1
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        enable = true
+        owner = "YakutsukuriYuu"
+        repo = "GitalkComments"
+        clientId = "Ov23liprIIyGcgfpnhrQ"
+        clientSecret = "f2c118e732d7a254ce02f98147aa5a284758b07e"
       # Valine 评论系统设置
       [params.page.comment.valine]
         enable = false
