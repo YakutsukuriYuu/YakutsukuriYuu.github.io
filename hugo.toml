@@ -1,5 +1,23 @@
-baseURL = 'https://jetsu.cn/'
-languageCode = 'en-us'
-title = 'YakutsukuriYuu'
-theme = 'DoIt'
-publishDir = "./public"
+baseURL = "https://jetsu.cn/"
+# [en, zh-cn, fr, pl, ...] 设置默认的语言
+defaultContentLanguage = "zh-cn"
+# website title
+# 网站标题
+title = "DoIt"
+
+# 是否使用 robots.txt
+enableRobotsTXT = true
+# 是否使用 git 信息
+enableGitInfo = true
+# 是否使用 emoji 代码
+enableEmoji = true
+
+# 忽略一些构建错误
+# ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+
+# theme
+# 主题
+theme = "DoIt"
+
+
+
