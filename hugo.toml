@@ -386,7 +386,6 @@ theme = "DoIt"
         repo = "GitalkComments"
         clientId = "Ov23liprIIyGcgfpnhrQ"
         clientSecret = "f2c118e732d7a254ce02f98147aa5a284758b07e"
-        themeColor = "#ff5733"  # 自定义主题颜色
       # Valine 评论系统设置
       [params.page.comment.valine]
         enable = false
