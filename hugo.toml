@@ -43,6 +43,14 @@ theme = "DoIt"
     url = "/categories/"
     title = ""
     weight = 3
+  [[menu.main]]
+    identifier = "github"
+    pre = ""
+    post = ""
+    name = "github"
+    url = "https://github.com/"
+    title = ""
+    weight = 4
 
 # Hugo 解析文档的配置
 [markup]
@@ -58,16 +66,81 @@ theme = "DoIt"
   avatarURL = "https://raw.githubusercontent.com/YakutsukuriYuu/picGo/main/hexo/YakutsukuriYuu.jpeg"
   # 头像的链接指向的 URL
   avatarLinkURL = "categories"
+  social = true
+
+
 [params.social]
-  [params.social.Mastodon]
-    # 排列图标时的权重 (权重越大, 图标的位置越靠后)
-    weight = 0
-    # 你的社交 ID
-    id = "@xxxx"
-    # 你的社交链接的前缀
-    prefix = "https://mastodon.social/"
-    # 当鼠标停留在图标上时的提示内容
-    title = "Mastodon"
+    GitHub = "yakutsukuriyuu/yakutsukuriyuu.github.io"
+    Linkedin = ""
+    Twitter = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
+    Medium = ""
+    Gitlab = ""
+    Youtubelegacy = ""
+    Youtubecustom = ""
+    Youtubechannel = ""
+    Tumblr = ""
+    Quora = ""
+    Keybase = ""
+    Pinterest = ""
+    Reddit = ""
+    Codepen = ""
+    FreeCodeCamp = ""
+    Bitbucket = ""
+    Stackoverflow = ""
+    Weibo = ""
+    Odnoklassniki = ""
+    VK = ""
+    Flickr = ""
+    Xing = ""
+    Snapchat = ""
+    Soundcloud = ""
+    Spotify = ""
+    Bandcamp = ""
+    Paypal = ""
+    Fivehundredpx = ""
+    Mix = ""
+    Goodreads = ""
+    Lastfm = ""
+    Foursquare = ""
+    Hackernews = ""
+    Kickstarter = ""
+    Patreon = ""
+    Steam = ""
+    Twitch = ""
+    Strava = ""
+    Skype = ""
+    Whatsapp = ""
+    Zhihu = ""
+    Douban = ""
+    Angellist = ""
+    Slidershare = ""
+    Jsfiddle = ""
+    Deviantart = ""
+    Behance = ""
+    Dribbble = ""
+    Wordpress = ""
+    Vine = ""
+    Googlescholar = ""
+    Researchgate = ""
+    Mastodon = ""
+    Thingiverse = ""
+    Devto = ""
+    Gitea = ""
+    XMPP = ""
+    Matrix = ""
+    Bilibili = "396176192"
+    ORCID = ""
+    Liberapay = ""
+    Ko-Fi = ""
+    BuyMeACoffee = ""
+    Linktree = ""
+    QQ = "1871683192"
+    QQGroup = ""
+    Email = "qiansu_mu@163.com"
+    RSS = true # DoIt 新增 | 0.2.0
 
 [params.search]
   enable = true
@@ -102,3 +175,5 @@ theme = "DoIt"
     ignoreFieldNorm = false
 
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
