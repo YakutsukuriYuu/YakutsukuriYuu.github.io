@@ -1,9 +1,24 @@
-.DS_Store
-Thumbs.db
-db.json
-*.log
-node_modules/
+# Hugo default output directory
 public/
-.deploy*/
-_multiconfig.yml
-/public
+/exampleSite/resources/
+
+node_modules/
+build/
+gen_/
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+# Linux
+.directory
+
+# Hugo
+.hugo_build.lock
+jsconfig.json
