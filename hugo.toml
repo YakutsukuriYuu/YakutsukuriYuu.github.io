@@ -1,23 +1,104 @@
 baseURL = "https://jetsu.cn/"
-# [en, zh-cn, fr, pl, ...] 设置默认的语言
+# [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
-# website title
+# 网站语言, 仅在这里 CN 大写
+languageCode = "zh-CN"
+# 是否包括中日韩文字
+hasCJKLanguage = true
 # 网站标题
-title = "DoIt"
+title = "YakutsukuriYuu"
 
-# 是否使用 robots.txt
-enableRobotsTXT = true
-# 是否使用 git 信息
-enableGitInfo = true
-# 是否使用 emoji 代码
-enableEmoji = true
-
-# 忽略一些构建错误
-# ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
-
-# theme
-# 主题
+# 更改使用 Hugo 构建网站时使用的默认主题
 theme = "DoIt"
 
+[params]
+  # DoIt 主题版本
+  version = "0.2.X"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+    pre = ""
+    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+    post = ""
+    name = "文章"
+    url = "/posts/"
+    # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "标签"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "分类"
+    url = "/categories/"
+    title = ""
+    weight = 3
+
+# Hugo 解析文档的配置
+[markup]
+  # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+
+[params.home.profile]
+  # Gravatar 邮箱, 用于优先在主页显示的头像
+  gravatarEmail = ""
+  # 主页显示头像的 URL
+  avatarURL = "https://raw.githubusercontent.com/YakutsukuriYuu/picGo/main/hexo/YakutsukuriYuu.jpeg"
+  # 头像的链接指向的 URL
+  avatarLinkURL = "categories"
+[params.social]
+  [params.social.Mastodon]
+    # 排列图标时的权重 (权重越大, 图标的位置越靠后)
+    weight = 0
+    # 你的社交 ID
+    id = "@xxxx"
+    # 你的社交链接的前缀
+    prefix = "https://mastodon.social/"
+    # 当鼠标停留在图标上时的提示内容
+    title = "Mastodon"
+
+[params.search]
+  enable = true
+  # 搜索引擎的类型 ("algolia", "fuse")
+  type = "fuse"
+  # 文章内容最长索引长度
+  contentLength = 4000
+  # 搜索框的占位提示语
+  placeholder = ""
+  #  最大结果数目
+  maxResultLength = 10
+  #  结果内容片段长度
+  snippetLength = 50
+  #  搜索结果中高亮部分的 HTML 标签
+  highlightTag = "em"
+  #  是否在搜索索引中使用基于 baseURL 的绝对路径
+  absoluteURL = false
+  [params.search.algolia]
+    index = ""
+    appID = ""
+    searchKey = ""
+  [params.search.fuse]
+    #  https://fusejs.io/api/options.html
+    isCaseSensitive = false
+    minMatchCharLength = 2
+    findAllMatches = false
+    location = 0
+    threshold = 0.3
+    distance = 100
+    ignoreLocation = false
+    useExtendedSearch = false
+    ignoreFieldNorm = false
 
 
