@@ -10,10 +10,13 @@ title = "YakutsukuriYuu"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "DoIt"
-
+# 未来时间的文章也发布
+buildfuture = true 
 [params]
     # DoIt 主题版本
     version = "0.2.X"
+   
+   
 
 
 
@@ -36,7 +39,7 @@ theme = "DoIt"
     name = "标签"
     url = "/tags/"
     title = ""
-    weight = 2
+    weight = 3
   [[menu.main]]
     identifier = "categories"
     pre = ""
@@ -44,7 +47,7 @@ theme = "DoIt"
     name = "分类"
     url = "/categories/"
     title = ""
-    weight = 3
+    weight = 2
   [[menu.main]]
     identifier = "github"
     pre = ""
