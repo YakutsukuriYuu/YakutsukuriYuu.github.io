@@ -1,9 +1,10 @@
 ---
 title: iterm2美化
-tags:
-  - 教程
 categories:
   - 教程
+tags:
+  - 教程
+
 
 date: 2024-06-02
 updated: 2024-06-02
