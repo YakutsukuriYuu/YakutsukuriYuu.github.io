@@ -56,11 +56,11 @@ theme = "DoIt"
 
 # Hugo 解析文档的配置
 [markup]
-
-  # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
-    # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+    style = "monokai" # 这里可以是你喜欢的样式
+    lineNos = true # 是否显示行号
+    lineNumbersInTable = true
 
 # DoIt 新增 | 0.2.0 Section (所有文章) 页面配置
 [params.section]
